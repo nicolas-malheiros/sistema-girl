@@ -1,6 +1,6 @@
-const CLIENT_ID = 'c9c585464ef74c43bd7eada52e417391';  // Coloque seu Client ID
-const CLIENT_SECRET = 'ea6f39b09ed8428fa28a14a8a5035716';  // Coloque seu Client Secret
-const REDIRECT_URI = 'file:///C:/Users/12673545930/Downloads/sistema-girl-master/sistema-girl-master/telas/musicas.html';  // Seu Redirect URI
+const CLIENT_ID = 'a3ee15f772514d3c94295f3627fe9481';  // Coloque seu Client ID
+const CLIENT_SECRET = '2f412a02e1124831aae7fdceee5d070b';  // Coloque seu Client Secret
+const REDIRECT_URI = 'https://nicolas-malheiros.github.io/sistema-girl/telas/musicas.html';  // Seu Redirect URI
 const mensagemInteracao = document.querySelector('.mensagemUsuario');
 
 
