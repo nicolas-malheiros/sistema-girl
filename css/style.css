@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #414c5c, #9220a3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #7f8dff;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 30px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 2px solid #d6a5f5;
+    margin-bottom: 20px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border: 2px solid #a2d0ff;
+    outline: none;
+}
+
+button {
+    padding: 20px 35px;
+    font-size: 1rem;
+    background-color: #634558;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ce4747;
+}
+
+/* Media Query para telas menores que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Torna a container mais estreita em telas pequenas */
+        padding: 50px;
+    }
+
+    h1 {
+        font-size: 2rem; /* Ajuste o tamanho da fonte do título */
+        margin-bottom: 20px; /* Menos margem para telas menores */
+    }
+
+    input {
+        padding: 20px; /* Reduz o padding do input */
+        font-size: 1.1rem; /* Ajuste o tamanho da fonte do input */
+    }
+
+    button {
+        padding: 15px 25px; /* Reduz o padding do botão */
+        font-size: 0.9rem; /* Ajuste o tamanho da fonte do botão */
+    }
+}
+
+/* Media Query para telas menores que 480px (celulares muito pequenos) */
+@media (max-width: 480px) {
+    .container {
+        width: 95%; /* Container mais estreita em telas muito pequenas */
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Ajuste maior no título para telas muito pequenas */
+    }
+
+    input {
+        padding: 15px; /* Menos padding nos inputs */
+        font-size: 1rem; /* Fontes menores nos inputs */
+    }
+
+    button {
+        padding: 12px 20px; /* Botão menor em telas muito pequenas */
+        font-size: 0.8rem; /* Fonte do botão menor */
+    }
+}
